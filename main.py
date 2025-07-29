@@ -4,7 +4,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import PromptTemplate
 
 # Set your Google Gemini API key
-os.environ["GOOGLE_API_KEY"] = "AIzaSyAEqYZHrYZ9jcsJd-_F992VmANSZdhlIkI"  # 🔁 Replace with your actual key
+os.environ["GOOGLE_API_KEY"] = "YOUR_API_KEY"  # 🔁 Replace with your actual key
 
 # Initialize Gemini model
 gemini_model = ChatGoogleGenerativeAI(model="gemini-1.5-flash-latest")
